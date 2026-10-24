@@ -33,7 +33,6 @@ rsocket-how-it-works.pdf
 /web/src/api/schema.d.ts
 
 # Playwright складывает трассы туда, откуда запущен
-.playwright-mcp/
 
 # Снимки экрана и дампы страниц: место им в web/.shots/, но иногда падают в корень
 /*.png
