@@ -88,7 +88,7 @@ export const SiteHeader = ({ path, go }: Props) => {
           </div>
         </nav>
         <GithubLink
-          href="https://github.com/GoatWhistle/genesis-hack"
+          href="https://github.com/Ullax/genesis"
           label="Исходники на GitHub"
         />
       </div>

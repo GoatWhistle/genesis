@@ -4,9 +4,8 @@ import tailwind from "@tailwindcss/vite";
 import { fileURLToPath, URL } from "node:url";
 import { baseRulesPlugin, slimLangsPlugin } from "./scripts/baseRules";
 
-// Прод отдаётся Caddy с того же домена, поэтому /api идёт относительным путём.
-// В разработке проксируем на поднятый локально сервис — так один и тот же код
-// клиента работает и там, и там, без переменной окружения с адресом.
+// /api идёт относительным путём: в разработке проксируем на поднятый локально
+// сервис, без переменной окружения с адресом.
 export default defineConfig({
   plugins: [react(), tailwind(), baseRulesPlugin(), slimLangsPlugin()],
   resolve: {
