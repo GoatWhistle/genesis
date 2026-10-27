@@ -202,5 +202,5 @@ docker compose up --build   # MinIO и сервер на localhost:9292
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/mark.dark.png"><img src="docs/readme/mark.light.png" alt="" width="32" height="32"></picture>
   <br>
-  <sub>Команда Ullax, Hack.Genesis 2026, трек «Генератор интеграций с платёжными провайдерами». Лицензия <a href="LICENSE">MIT</a>.</sub>
+  <sub>Команда GoatWhistle, Hack.Genesis 2026, трек «Генератор интеграций с платёжными провайдерами». Лицензия <a href="LICENSE">MIT</a>.</sub>
 </p>
